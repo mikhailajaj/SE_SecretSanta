@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0393DBB6B280673C17BE9D1E /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7554618D8C7DCE9524D3FDD9 /* AmplifyModels.swift */; };
+		1DCC487C19038D428B03D8D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E32288C20A17FDC6FC4B7 /* User.swift */; };
+		2D5E29DF2BC73DE400C313F4 /* JoinEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E29DE2BC73DE400C313F4 /* JoinEventView.swift */; };
+		2D67D5F12BCDD9DB005C32E2 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67D5F02BCDD9DB005C32E2 /* EventCardView.swift */; };
+		2D67D5F32BCDDB60005C32E2 /* EventConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67D5F22BCDDB60005C32E2 /* EventConfirmationView.swift */; };
+		2DF2C0D62BC1CC2A00D3117A /* SecretSantaIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0D52BC1CC2A00D3117A /* SecretSantaIOSApp.swift */; };
+		2DF2C0DA2BC1CC2D00D3117A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2C0D92BC1CC2D00D3117A /* Assets.xcassets */; };
+		2DF2C0DD2BC1CC2D00D3117A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2C0DC2BC1CC2D00D3117A /* Preview Assets.xcassets */; };
+		2DF2C0E52BC1CFAA00D3117A /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 2DF2C0E42BC1CFAA00D3117A /* Amplify */; };
+		2DF2C0E72BC1D70900D3117A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0E62BC1D70900D3117A /* LoginView.swift */; };
+		2DF2C0E92BC1D72300D3117A /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0E82BC1D72300D3117A /* SignupView.swift */; };
+		2DF2C0EB2BC1D74A00D3117A /* ConfirmSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0EA2BC1D74A00D3117A /* ConfirmSignUpView.swift */; };
+		2DF2C0F02BC2026D00D3117A /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 2DF2C0EF2BC2026D00D3117A /* AWSDataStorePlugin */; };
+		2DF2C0F22BC2027100D3117A /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 2DF2C0F12BC2027100D3117A /* AWSAPIPlugin */; };
+		2DF2C0F42BC2032200D3117A /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 2DF2C0F32BC2032200D3117A /* AWSCognitoAuthPlugin */; };
+		2DF2C0F62BC204B600D3117A /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0F52BC204B600D3117A /* UserState.swift */; };
+		2DF2C0F82BC204D300D3117A /* MarketplaceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0F72BC204D300D3117A /* MarketplaceError.swift */; };
+		2DF2C0FA2BC204F000D3117A /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0F92BC204F000D3117A /* SessionView.swift */; };
+		2DF2C0FF2BC2076700D3117A /* UserPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C0FE2BC2076700D3117A /* UserPackage.swift */; };
+		2DF2C1012BC20BC600D3117A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C1002BC20BC600D3117A /* HomeView.swift */; };
+		2DF2C1032BC20C1100D3117A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C1022BC20C1100D3117A /* ProfileView.swift */; };
+		2DF2C1052BC20C1B00D3117A /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C1042BC20C1B00D3117A /* AddEventView.swift */; };
+		2DF2C1072BC20C3300D3117A /* Event+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2C1062BC20C3300D3117A /* Event+Extensions.swift */; };
+		4C8E52A0299FEA2E54E90170 /* Event+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85ADFF79395BD4875399F9 /* Event+Schema.swift */; };
+		56EA7D8F18CA614CE22BC550 /* UserEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3892A44C95A2D6A38ADD5B /* UserEvent.swift */; };
+		A6787D50F2C76D41444919EF /* UserEvent+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9039DDA1C703828281F326 /* UserEvent+Schema.swift */; };
+		E3659EBCED86FEE9ED96A013 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 78D13413C368F0B7BF9362E3 /* awsconfiguration.json */; };
+		E53196BA22EC997F78B1F047 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412D476DF9EBA44F0C277FE7 /* Event.swift */; };
+		F2F928297E59224566AC94AC /* User+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C0B3C5CFF902BA0CB36647 /* User+Schema.swift */; };
+		F86FEB1022F4731B6F664440 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 10DA70C0EE29AC554F0E0C1A /* amplifyconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10DA70C0EE29AC554F0E0C1A /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		2D5E29DE2BC73DE400C313F4 /* JoinEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinEventView.swift; sourceTree = "<group>"; };
+		2D67D5F02BCDD9DB005C32E2 /* EventCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		2D67D5F22BCDDB60005C32E2 /* EventConfirmationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventConfirmationView.swift; sourceTree = "<group>"; };
+		2DF2C0D22BC1CC2A00D3117A /* SecretSantaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSantaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF2C0D52BC1CC2A00D3117A /* SecretSantaIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaIOSApp.swift; sourceTree = "<group>"; };
+		2DF2C0D92BC1CC2D00D3117A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DF2C0DC2BC1CC2D00D3117A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DF2C0E62BC1D70900D3117A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2DF2C0E82BC1D72300D3117A /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		2DF2C0EA2BC1D74A00D3117A /* ConfirmSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpView.swift; sourceTree = "<group>"; };
+		2DF2C0F52BC204B600D3117A /* UserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserState.swift; sourceTree = "<group>"; };
+		2DF2C0F72BC204D300D3117A /* MarketplaceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceError.swift; sourceTree = "<group>"; };
+		2DF2C0F92BC204F000D3117A /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		2DF2C0FE2BC2076700D3117A /* UserPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPackage.swift; sourceTree = "<group>"; };
+		2DF2C1002BC20BC600D3117A /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2DF2C1022BC20C1100D3117A /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2DF2C1042BC20C1B00D3117A /* AddEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		2DF2C1062BC20C3300D3117A /* Event+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+Extensions.swift"; sourceTree = "<group>"; };
+		412D476DF9EBA44F0C277FE7 /* Event.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Event.swift; path = amplify/generated/models/Event.swift; sourceTree = "<group>"; };
+		4C85ADFF79395BD4875399F9 /* Event+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Event+Schema.swift"; path = "amplify/generated/models/Event+Schema.swift"; sourceTree = "<group>"; };
+		7554618D8C7DCE9524D3FDD9 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		78C0B3C5CFF902BA0CB36647 /* User+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "User+Schema.swift"; path = "amplify/generated/models/User+Schema.swift"; sourceTree = "<group>"; };
+		78D13413C368F0B7BF9362E3 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		8D9039DDA1C703828281F326 /* UserEvent+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "UserEvent+Schema.swift"; path = "amplify/generated/models/UserEvent+Schema.swift"; sourceTree = "<group>"; };
+		BF3892A44C95A2D6A38ADD5B /* UserEvent.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = UserEvent.swift; path = amplify/generated/models/UserEvent.swift; sourceTree = "<group>"; };
+		FD9E32288C20A17FDC6FC4B7 /* User.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = User.swift; path = amplify/generated/models/User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF2C0CF2BC1CC2A00D3117A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF2C0F22BC2027100D3117A /* AWSAPIPlugin in Frameworks */,
+				2DF2C0E52BC1CFAA00D3117A /* Amplify in Frameworks */,
+				2DF2C0F02BC2026D00D3117A /* AWSDataStorePlugin in Frameworks */,
+				2DF2C0F42BC2032200D3117A /* AWSCognitoAuthPlugin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5E29E02BC74FFA00C313F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2C1062BC20C3300D3117A /* Event+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DF2C0C92BC1CC2A00D3117A = {
+			isa = PBXGroup;
+			children = (
+				2DF2C0D42BC1CC2A00D3117A /* SecretSantaIOS */,
+				2DF2C0D32BC1CC2A00D3117A /* Products */,
+				5FD75554B829BE480DE6D505 /* AmplifyConfig */,
+				721D9F1312AA9CF47E64A476 /* AmplifyModels */,
+				2DF2C0EE2BC2026D00D3117A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DF2C0D32BC1CC2A00D3117A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2C0D22BC1CC2A00D3117A /* SecretSantaIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF2C0D42BC1CC2A00D3117A /* SecretSantaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E29E02BC74FFA00C313F4 /* Extensions */,
+				2DF2C0FC2BC205A600D3117A /* Views */,
+				2DF2C0FB2BC2059C00D3117A /* Models */,
+				2DF2C0D52BC1CC2A00D3117A /* SecretSantaIOSApp.swift */,
+				2DF2C0D92BC1CC2D00D3117A /* Assets.xcassets */,
+				2DF2C0DB2BC1CC2D00D3117A /* Preview Content */,
+			);
+			path = SecretSantaIOS;
+			sourceTree = "<group>";
+		};
+		2DF2C0DB2BC1CC2D00D3117A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2C0DC2BC1CC2D00D3117A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DF2C0EE2BC2026D00D3117A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DF2C0FB2BC2059C00D3117A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2C0F52BC204B600D3117A /* UserState.swift */,
+				2DF2C0F72BC204D300D3117A /* MarketplaceError.swift */,
+				2DF2C0FE2BC2076700D3117A /* UserPackage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2DF2C0FC2BC205A600D3117A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D67D5F22BCDDB60005C32E2 /* EventConfirmationView.swift */,
+				2D67D5F02BCDD9DB005C32E2 /* EventCardView.swift */,
+				2DF2C1042BC20C1B00D3117A /* AddEventView.swift */,
+				2DF2C1022BC20C1100D3117A /* ProfileView.swift */,
+				2DF2C1002BC20BC600D3117A /* HomeView.swift */,
+				2DF2C0EA2BC1D74A00D3117A /* ConfirmSignUpView.swift */,
+				2DF2C0E82BC1D72300D3117A /* SignupView.swift */,
+				2DF2C0E62BC1D70900D3117A /* LoginView.swift */,
+				2DF2C0F92BC204F000D3117A /* SessionView.swift */,
+				2D5E29DE2BC73DE400C313F4 /* JoinEventView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FD75554B829BE480DE6D505 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				78D13413C368F0B7BF9362E3 /* awsconfiguration.json */,
+				10DA70C0EE29AC554F0E0C1A /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		721D9F1312AA9CF47E64A476 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				7554618D8C7DCE9524D3FDD9 /* AmplifyModels.swift */,
+				4C85ADFF79395BD4875399F9 /* Event+Schema.swift */,
+				412D476DF9EBA44F0C277FE7 /* Event.swift */,
+				78C0B3C5CFF902BA0CB36647 /* User+Schema.swift */,
+				FD9E32288C20A17FDC6FC4B7 /* User.swift */,
+				8D9039DDA1C703828281F326 /* UserEvent+Schema.swift */,
+				BF3892A44C95A2D6A38ADD5B /* UserEvent.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DF2C0D12BC1CC2A00D3117A /* SecretSantaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF2C0E02BC1CC2D00D3117A /* Build configuration list for PBXNativeTarget "SecretSantaIOS" */;
+			buildPhases = (
+				2DF2C0CE2BC1CC2A00D3117A /* Sources */,
+				2DF2C0CF2BC1CC2A00D3117A /* Frameworks */,
+				2DF2C0D02BC1CC2A00D3117A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretSantaIOS;
+			packageProductDependencies = (
+				2DF2C0E42BC1CFAA00D3117A /* Amplify */,
+				2DF2C0EF2BC2026D00D3117A /* AWSDataStorePlugin */,
+				2DF2C0F12BC2027100D3117A /* AWSAPIPlugin */,
+				2DF2C0F32BC2032200D3117A /* AWSCognitoAuthPlugin */,
+			);
+			productName = SecretSantaIOS;
+			productReference = 2DF2C0D22BC1CC2A00D3117A /* SecretSantaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DF2C0CA2BC1CC2A00D3117A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2DF2C0D12BC1CC2A00D3117A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2DF2C0CD2BC1CC2A00D3117A /* Build configuration list for PBXProject "SecretSantaIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DF2C0C92BC1CC2A00D3117A;
+			packageReferences = (
+				2DF2C0E32BC1CFAA00D3117A /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
+			productRefGroup = 2DF2C0D32BC1CC2A00D3117A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DF2C0D12BC1CC2A00D3117A /* SecretSantaIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF2C0D02BC1CC2A00D3117A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF2C0DD2BC1CC2D00D3117A /* Preview Assets.xcassets in Resources */,
+				2DF2C0DA2BC1CC2D00D3117A /* Assets.xcassets in Resources */,
+				E3659EBCED86FEE9ED96A013 /* awsconfiguration.json in Resources */,
+				F86FEB1022F4731B6F664440 /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DF2C0CE2BC1CC2A00D3117A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D67D5F12BCDD9DB005C32E2 /* EventCardView.swift in Sources */,
+				2DF2C0E92BC1D72300D3117A /* SignupView.swift in Sources */,
+				2DF2C0E72BC1D70900D3117A /* LoginView.swift in Sources */,
+				2DF2C0EB2BC1D74A00D3117A /* ConfirmSignUpView.swift in Sources */,
+				2DF2C0D62BC1CC2A00D3117A /* SecretSantaIOSApp.swift in Sources */,
+				0393DBB6B280673C17BE9D1E /* AmplifyModels.swift in Sources */,
+				4C8E52A0299FEA2E54E90170 /* Event+Schema.swift in Sources */,
+				2DF2C0F82BC204D300D3117A /* MarketplaceError.swift in Sources */,
+				2D5E29DF2BC73DE400C313F4 /* JoinEventView.swift in Sources */,
+				2DF2C0FA2BC204F000D3117A /* SessionView.swift in Sources */,
+				2DF2C0F62BC204B600D3117A /* UserState.swift in Sources */,
+				2DF2C1032BC20C1100D3117A /* ProfileView.swift in Sources */,
+				2DF2C0FF2BC2076700D3117A /* UserPackage.swift in Sources */,
+				E53196BA22EC997F78B1F047 /* Event.swift in Sources */,
+				F2F928297E59224566AC94AC /* User+Schema.swift in Sources */,
+				2DF2C1052BC20C1B00D3117A /* AddEventView.swift in Sources */,
+				1DCC487C19038D428B03D8D1 /* User.swift in Sources */,
+				2DF2C1072BC20C3300D3117A /* Event+Extensions.swift in Sources */,
+				2D67D5F32BCDDB60005C32E2 /* EventConfirmationView.swift in Sources */,
+				2DF2C1012BC20BC600D3117A /* HomeView.swift in Sources */,
+				A6787D50F2C76D41444919EF /* UserEvent+Schema.swift in Sources */,
+				56EA7D8F18CA614CE22BC550 /* UserEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2DF2C0DE2BC1CC2D00D3117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DF2C0DF2BC1CC2D00D3117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DF2C0E12BC1CC2D00D3117A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretSantaIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DN7G9DW944;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedahmed.SecretSantaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DF2C0E22BC1CC2D00D3117A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretSantaIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DN7G9DW944;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamedahmed.SecretSantaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DF2C0CD2BC1CC2A00D3117A /* Build configuration list for PBXProject "SecretSantaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF2C0DE2BC1CC2D00D3117A /* Debug */,
+				2DF2C0DF2BC1CC2D00D3117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF2C0E02BC1CC2D00D3117A /* Build configuration list for PBXNativeTarget "SecretSantaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF2C0E12BC1CC2D00D3117A /* Debug */,
+				2DF2C0E22BC1CC2D00D3117A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DF2C0E32BC1CFAA00D3117A /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DF2C0E42BC1CFAA00D3117A /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DF2C0E32BC1CFAA00D3117A /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		2DF2C0EF2BC2026D00D3117A /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DF2C0E32BC1CFAA00D3117A /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		2DF2C0F12BC2027100D3117A /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DF2C0E32BC1CFAA00D3117A /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		2DF2C0F32BC2032200D3117A /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DF2C0E32BC1CFAA00D3117A /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2DF2C0CA2BC1CC2A00D3117A /* Project object */;
+}
