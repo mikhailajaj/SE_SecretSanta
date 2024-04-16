@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-secretsantaios-dev-5ef1f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::966587549284:role/amplify-secretsantaios-dev-5ef1f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::966587549284:role/amplify-secretsantaios-dev-5ef1f-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-secretsantaios-dev-5ef1f-deployment",
+      "UnauthRoleName": "amplify-secretsantaios-dev-5ef1f-unauthRole",
+      "StackName": "amplify-secretsantaios-dev-5ef1f",
+      "StackId": "arn:aws:cloudformation:us-west-2:966587549284:stack/amplify-secretsantaios-dev-5ef1f/6183ea60-f445-11ee-ac1c-02eb37e249a9",
+      "AmplifyAppId": "d3v0gwh5q20w6z"
+    },
+    "categories": {
+      "auth": {
+        "secretsantaios05ab438c": {}
+      },
+      "api": {
+        "secretsantaios": {}
+      }
+    }
+  }
+}
